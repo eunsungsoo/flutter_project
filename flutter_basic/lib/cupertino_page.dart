@@ -16,7 +16,7 @@ class _CupertinoPageState extends State<CupertinoPage> {
         body: Column(
           children: <Widget>[
             CupertinoButton(
-                child: Text('쿠퍼티노 버튼')
+                child: Text('쿠퍼티노 버튼'), onPressed: () {},
             )
           ],
         )
